@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #614D59;
+}
+
+a:hover{
+    color: #000;
+}
+
+header {
+    height: 104px;
+    background-color: #EFD9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 500px;
+    text-align: center;
+}
+
+header nav a {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 40px;
+}
+
+/* comienza main */
+
+main {
+    background-color: #cc9e9e;
+}
+
+/* sección inicio */
+
+#inicio{
+    height: 500px;
+    background-image: url(../img/bgc-3-cuaderno.jpg);
+    opacity: 0.8;
+}
+
+#inicio h1{
+    text-align: center;
+    font-size: 80px;
+    color: #612F4D;
+    padding: 90px 0 20px 0;
+    text-shadow:2px 2px 4px #000;
+
+}
+
+#inicio h2{
+    text-align: center;
+    color: #614D59;
+    margin-bottom: 20px;
+    text-shadow:1px 1px 2px #000;
+}
+
+#inicio p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: #614D59;
+    margin: 0px 0 20px 10px;   
+    text-shadow:1px 1px 2px #000; 
+}
+
+#inicio figure{
+    text-align: center;
+}
+
+#inicio figure img{
+    padding: 20px;
+}
+
+/* comienza sección proyectos */
+
+#proyectos{
+    height: 500px;
+    background-color: #B08484;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#proyectos h2{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #614D59;
+    padding-top: 30px;
+}
+
+#proyectos article{
+    width: 272px;
+    height: 342px;
+    background-color: #EFD9D9;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+#proyectos article img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#proyectos article h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+
+/* comienza sección footer */
+
+footer{
+    height: 220px;
+    background-color: #734B4B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a img{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+
+
+
+
