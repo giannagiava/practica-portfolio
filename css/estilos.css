@@ -153,15 +153,16 @@ footer a img{
 
 /* IR ARRIBA */
 .ir-arriba {
-	display:none;
+	/* display:none; ARREGLAR*/
 	padding:20px;
-	background:#292525;
+	background:#734B4B;
 	font-size:20px;
-	color:#fff;
+	color:#ffff;
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
 	right:20px;
+    border-radius: 50%;
 }
 
 
